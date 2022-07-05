@@ -27,12 +27,12 @@ body{
   font-size: 60px;
   font-weight: 700;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .header-section-text p{
   color: rgb(242, 237, 237);
   font-weight: 100;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .button{
@@ -50,5 +50,52 @@ body{
   color: rgb(60, 56, 56);
 }
 
+/* Donate today section styles*/
 
+.donate-today{
+  text-align: center;
+}
+
+.donate-today h2{
+  font-size: 45px;
+  margin-top: 110px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.donate-today p{
+  color: gray;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+.donation-amount{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 300px;
+}
+
+.amount{
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 250);
+  text-align: center;
+}
  
+.amount p{
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(117, 110, 110);
+}
+
+.default{
+  border: 2px solid tomato;
+  background-color: rgb(253, 229, 225);
+}
+
+.default p{
+  color: tomato;
+}

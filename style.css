@@ -1,0 +1,54 @@
+body{
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header section styles */
+
+.blur-bg-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.504)),  url("donate-today-main/images/donation3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  filter: blur(2px);
+} 
+
+
+.header-section-text{
+  text-align: center;
+  width: 1000px;
+  position: absolute;
+  top:150px ;
+  left: 170px;
+}
+
+.header-section-text h1{
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+.header-section-text p{
+  color: rgb(242, 237, 237);
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.button{
+  height:50px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: rgb(242, 89, 58);
+  border: none;
+  color: #f1f1f1;
+}
+
+.button:hover{
+  box-shadow: 8px 8px 20px black;
+  color: rgb(60, 56, 56);
+}
+
+
+ 

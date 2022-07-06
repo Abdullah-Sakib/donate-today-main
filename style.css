@@ -232,7 +232,7 @@ body {
   border-radius: 10px;
   font-size: 18px;
   font-weight: 550;
-  background: rgb(242, 89, 58);
+  background: #f2593a;
   border: none;
   color: #f1f1f1;
   margin-top: 20px;
@@ -246,7 +246,7 @@ body {
 /* They need us section  */
 
 .they-need-us{
-  margin: 150px auto;
+  margin: 150px auto 100px auto;
 }
 
 .second-lives{
@@ -256,3 +256,63 @@ body {
 .second-lives-texts{
   padding: 5px 30px 40px 80px;
 }
+
+/* Get my updates section */
+
+.my-updates{
+ text-align: center;
+ margin-bottom: 120px;
+}
+
+.my-updates h2{
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.my-updates p{
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 180px;  
+ background-color: rgba(255, 228, 196, 0.867);
+ margin: auto 300px ;
+}
+
+.form input[type="email"]{
+  height: 40px;
+  width: 250px;
+  background-color: #c5c4c4d4;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.form input[type="email"]::placeholder{
+  padding-left: 15px;
+  color: rgb(148, 147, 147);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.form button{
+  height: 42px;
+  width: 150px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #FF5959;
+  color: white;
+  font-size: 15px;
+}
+
+.form button:hover{
+  color: rgb(74, 74, 74);
+}
+

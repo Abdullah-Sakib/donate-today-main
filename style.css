@@ -59,8 +59,8 @@ body {
 
 .donate-today h2 {
   font-size: 45px;
-  margin-top: 110px;
   font-weight: 900;
+  margin-top: 110px;
   margin-bottom: 25px;
 }
 
@@ -112,7 +112,7 @@ body {
   font-size: 18px;
 }
  
-/* remove the arroy from the input number */
+/* removing the arroy from the input number */
 
 .donate-today input::-webkit-outer-spin-button,
 .donate-today input::-webkit-inner-spin-button {
@@ -122,4 +122,71 @@ body {
 
 .donate-today input[type=number] {
   -moz-appearance: textfield;
+}
+
+/* our donate plan section */
+
+.donation-plan{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.plan-container{
+  display: flex;
+  margin: auto 120px;
+  justify-content: center;
+}
+
+.plan-card{
+  width: 340px;
+  height:340px;
+  margin: auto 10px;
+  text-align: left;
+}
+
+.education-icon{
+  width: 55px;
+}
+
+.plan-card  h3{
+  font-size: 23px;
+}
+
+.plan-card p{
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.card-child{
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 35px;
+  border-radius: 10px;
+}
+
+#food{
+  background-color: #e2fdffdf;
+}
+
+#shelter{
+  background-color: #fde3e3e3;
+}
+
+#education{
+  background-color: #fff4d6d8;
+}
+
+.donation-plan h2{
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.donation-plan p{
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+  margin-bottom: 50px;
 }

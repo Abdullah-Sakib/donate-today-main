@@ -7,7 +7,7 @@ body {
 /* header section styles */
 
 .blur-bg-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.504)), url("donate-today-main/images/donation3.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.504)), url("donate-today-main/images/donation3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -129,6 +129,7 @@ body {
 .donation-plan{
   text-align: center;
   margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .plan-container{
@@ -189,4 +190,55 @@ body {
   font-size: 17px;
   font-weight: 100;
   margin-bottom: 50px;
+}
+
+/* Their lives depend on your donation section  */
+
+.lives-container{
+  display: flex;
+  margin: 10px 150px;
+}
+
+.lives{
+  width: 50%;
+}
+
+.lives-text{
+  padding: 10px;
+}
+
+.lives h2{
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.lives p{
+  color: gray;
+  font-size: 17px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.lives-img img{
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.contribute-button{
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 550;
+  background: rgb(242, 89, 58);
+  border: none;
+  color: #f1f1f1;
+  margin-top: 20px;
+}
+
+.contribute-button:hover{
+  box-shadow: 8px 8px 30px gray;
+  color: rgb(60, 56, 56);
 }

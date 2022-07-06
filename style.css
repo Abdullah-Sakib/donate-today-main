@@ -242,3 +242,17 @@ body {
   box-shadow: 8px 8px 30px gray;
   color: rgb(60, 56, 56);
 }
+
+/* They need us section  */
+
+.they-need-us{
+  margin: 150px auto;
+}
+
+.second-lives{
+ width: 50%;
+}
+
+.second-lives-texts{
+  padding: 5px 30px 40px 80px;
+}

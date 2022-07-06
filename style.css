@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-/* header section styles */
+                        /* header section styles */
 
 .blur-bg-img {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.504)), url("donate-today-main/images/donation3.jpg");
@@ -13,7 +13,6 @@ body {
   height: 100vh;
   filter: blur(2px);
 }
-
 
 .header-section-text {
   text-align: center;
@@ -51,15 +50,18 @@ body {
   color: rgb(60, 56, 56);
 }
 
-/* Donate today section styles*/
+                        /* Donate today section styles*/
 
 .donate-today {
   text-align: center;
 }
 
-.donate-today h2 {
+.h2-heading{
   font-size: 45px;
   font-weight: 900;
+}
+
+.donate-today h2 {
   margin-top: 110px;
   margin-bottom: 25px;
 }
@@ -112,7 +114,7 @@ body {
   font-size: 18px;
 }
  
-/* removing the arroy from the input number */
+                /* removing the arroy from the input number */
 
 .donate-today input::-webkit-outer-spin-button,
 .donate-today input::-webkit-inner-spin-button {
@@ -124,7 +126,7 @@ body {
   -moz-appearance: textfield;
 }
 
-/* our donate plan section */
+                       /* our donate plan section */
 
 .donation-plan{
   text-align: center;
@@ -180,8 +182,6 @@ body {
 }
 
 .donation-plan h2{
-  font-size: 45px;
-  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -192,7 +192,7 @@ body {
   margin-bottom: 50px;
 }
 
-/* Their lives depend on your donation section  */
+             /* Their lives depend on your donation section  */
 
 .lives-container{
   display: flex;
@@ -208,8 +208,6 @@ body {
 }
 
 .lives h2{
-  font-size: 45px;
-  font-weight: 900;
   margin-bottom: 20px;
 }
 
@@ -220,10 +218,11 @@ body {
   margin-top: 20px;
 }
 
-.lives-img img{
+#lives-img img{
   width: 100%;
   height: 450px;
   border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
 }
 
 .contribute-button{
@@ -243,18 +242,95 @@ body {
   color: rgb(60, 56, 56);
 }
 
-/* They need us section  */
+                        /* They need us section  */
 
 .they-need-us{
   margin: 150px auto 100px auto;
 }
 
-.second-lives{
- width: 50%;
+#they-need-us-img{
+  width: 100%;
+  height: 430px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
 }
 
 .second-lives-texts{
   padding: 5px 30px 40px 80px;
+}
+
+                              /* News section */
+
+.bonus{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bonus h2{
+  margin-bottom: 20px;
+}
+
+.bonus p{
+  margin-bottom: 40px;
+  margin-top: 5px;
+  color: gray;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 320px;
+  background-color: rgb(252, 240, 224);
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 10px;
+}
+
+.card img{
+  width: 320px;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-text{
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.h3-heading{
+  font-size: 20px;
+ }
+
+.bottom-button{
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: 18px;
+  background: linear-gradient(rgb(242, 143, 159),tomato);
+  border: none;
+  color: #f1f1f1;
+}
+
+.bottom-button:hover{
+  box-shadow: 5px 5px 20px gray;
+}
+
+.bottom-button a:hover{
+  color: gray;
+}
+
+.bottom-button a{
+  color: white;
+  text-decoration: none;
+}
+
+.card-image{
+  width: 320px;
+  height: 40%;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* Get my updates section */

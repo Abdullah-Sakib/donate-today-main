@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'DM Sans', sans-serif;
   margin: 0;
   padding: 0;
@@ -6,37 +6,38 @@ body{
 
 /* header section styles */
 
-.blur-bg-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.504)),  url("donate-today-main/images/donation3.jpg");
+.blur-bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.504)), url("donate-today-main/images/donation3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   filter: blur(2px);
-} 
+}
 
 
-.header-section-text{
+.header-section-text {
   text-align: center;
   width: 1000px;
   position: absolute;
-  top:150px ;
+  top: 150px;
   left: 170px;
 }
 
-.header-section-text h1{
+.header-section-text h1 {
   font-size: 60px;
   font-weight: 700;
   color: white;
   margin-bottom: 30px;
 }
-.header-section-text p{
+
+.header-section-text p {
   color: rgb(242, 237, 237);
   font-weight: 100;
   margin-bottom: 40px;
 }
 
-.button{
-  height:50px;
+.button {
+  height: 50px;
   width: 150px;
   border-radius: 10px;
   font-size: 18px;
@@ -45,57 +46,80 @@ body{
   color: #f1f1f1;
 }
 
-.button:hover{
+.button:hover {
   box-shadow: 8px 8px 20px black;
   color: rgb(60, 56, 56);
 }
 
 /* Donate today section styles*/
 
-.donate-today{
+.donate-today {
   text-align: center;
 }
 
-.donate-today h2{
+.donate-today h2 {
   font-size: 45px;
   margin-top: 110px;
   font-weight: 900;
   margin-bottom: 25px;
 }
 
-.donate-today p{
+.donate-today p {
   color: gray;
   font-size: 20px;
   font-weight: 100;
   margin-bottom: 60px;
 }
 
-.donation-amount{
+.donation-amount {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 300px;
+  margin: 50px 300px 20px 300px;
 }
 
-.amount{
+.amount {
   width: 120px;
   height: 120px;
   border-radius: 10px;
   background-color: rgb(240, 240, 250);
   text-align: center;
 }
- 
-.amount p{
+
+.amount p {
   margin-top: 40px;
   font-size: 30px;
   font-weight: 900;
   color: rgb(117, 110, 110);
 }
 
-.default{
+.default {
   border: 2px solid tomato;
   background-color: rgb(253, 229, 225);
 }
 
-.default p{
+.default p {
   color: tomato;
+}
+
+.input {
+  display: inline-block;
+  width: 700px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 30px auto 40px auto;
+  text-align: center;
+  font-size: 18px;
+}
+ 
+/* remove the arroy from the input number */
+
+.donate-today input::-webkit-outer-spin-button,
+.donate-today input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.donate-today input[type=number] {
+  -moz-appearance: textfield;
 }
